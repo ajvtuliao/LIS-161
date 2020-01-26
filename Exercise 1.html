@@ -7,30 +7,36 @@
 <body>
 <header>
 	<h1>Not a Real CRM</h1>
-	<nav>
+	<nav id="mainmenu">
 		<ul>
 		  <li><a href="#">Home</a></li>
 		  <li><a href="#">Catalog</a></li>
 		  <li><a href="#">Inventory</a></li>
-    </ul>  
-  </nav> 
+    		</ul>  
+  	</nav> 
 	</header>
 	<section>
+	<header>
 	<h2>Contacts</h2>
-	<article>
-    <h3>My CRM</h3>
-    <nav>
+	</header>
+	<article id="secondarymenu">
+	<header>
+    	<h3>My CRM</h3>
+	</header>
+    		<nav>
 		<ul>
 		  <li><a href="#">Contacts</a></li>
 		  <li><a href="#">Orders</a></li>
 		  <li><a href="#">Calendar</a></li>
 		  <li><a href="#">Tasks</a></li>
 		  <li><a href="#">Evaluation Copies</a></li>
-    	</ul> 
+    		</ul> 
     </nav> 
 	</article>
-	<article>
+	<article id="mainid">
+		<header>
 		<h3>Jack  Smith</h3>
+		</header>
 		<p>
 		Address: 1 Microsoft Way<br/>
 		City:    Redmond<br/>
@@ -40,7 +46,7 @@
 		Phone:   +1 (425) 882-8080<br/>
 		Email:   <a href="mailto:jacksmith@microsoft.com">jacksmith@microsoft.com</a>
     	</p>
-  	<aside>
+  	<aside id="actions">
 		  <img src="images/edit.png" title="Edit this contact" />
 		  <img src="images/add.png" title="Add a new contact" />
 		  <img src="images/delete.png" title="Delete this contact" />
@@ -52,10 +58,10 @@
     <figcaption></figcaption><em>Map for Jack Smith</em>
     </figure>
 	</article>
-<aside>
+	<aside id="lastviewed">
 		<h3>Last Contact Viewed</h3>
 		<p><a href="#">Camille Bernard</a><br/>University of Paris</p>
-<aside>
+	<aside>
 </section>
 <footer>
   <p><small><a href="#">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a><br/>
